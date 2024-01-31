@@ -19,6 +19,7 @@ import DomainStore1 from "./pages/school/Tailwind/Index.vue";
 import DomainStore2 from "./pages/school/Tailwind/Andmed.vue";
 import DomainStore3 from "./pages/school/Tailwind/Makse.vue";
 import DomainStore4 from "./pages/school/Tailwind/Sooritatud.vue";
+import dragdrop from "./pages/school/tailwind/DragAndDrop.vue";
 
 import Maja from "./pages/school/tekstid/Maja.vue";
 import Pildid from "./pages/school/tekstid/Pildid.vue";
@@ -39,6 +40,7 @@ const routes = [
   { path: "/works/school/tailwind/domainstore2", component: DomainStore2 },
   { path: "/works/school/tailwind/domainstore3", component: DomainStore3 },
   { path: "/works/school/tailwind/domainstore4", component: DomainStore4 },
+  { path: "/works/school/tailwind/dragdrop", component: dragdrop},
 
   { path: "/works/school/tekstid/maja", component: Maja },
     { path: "/works/school/tekstid/pildid", component: Pildid },

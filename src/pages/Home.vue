@@ -10,12 +10,12 @@ import { CodeBracketIcon, Square3Stack3DIcon } from "@heroicons/vue/24/outline"
         <div class="w-full m-auto text-center align-middle text-[25vw] font-light blur-sm text-[#0e071f] select-none">
             KRISJYR</div>
     </div>
-    <main class="gradientthing xl:min-h-[250vh] min-h-[350vh]">
+    <main class="gradientthing xl:min-h-[250vh] min-h-[350vh] min-w-[100vw]">
 
 
         <div
             class="hero h-[75vh] bg-transparent flex flex-col align-middle has-[:hover]:backdrop-blur-sm transition duration-400">
-            <div class="hero-content scale-125 h-full xl-[4rem] p-36 rounded-xl m-auto flex flex-col justify-center hover:">
+            <div class="hero-content xl:scale-125 h-full xl-[4rem] p-36 rounded-xl m-auto flex flex-col justify-center hover:">
                 <div class="m-auto flex flex-col justify-center">
                     <h1 class="text-5xl font-light text-center">Software Developer, Designer</h1>
                     <p class="py-6 font-light text-center text-lg">I design and code beautifully simple things, and I love
